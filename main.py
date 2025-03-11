@@ -198,6 +198,7 @@ def get_wiki(word):
         return f"Ничего не нашел {error}"
 
 print(get_wiki("Москва"))
+print("DEVELOP")
 
 bot.infinity_polling() # контролирует когда приходят боту сообщения и позволяет раб.
 # коду
